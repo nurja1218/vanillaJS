@@ -17,4 +17,3 @@ const studentInfo = {
 };
 
 console.log(studentInfo.favFood[0].fatty);
-  
