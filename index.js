@@ -1,19 +1,6 @@
-const studentInfo = {
-  name: "junyoung",
-  age: 30,
-  gender: "Male",
-  liveIn: "gyeongGi",
-  favMovies: ["7 days", "Old boy", "Iron Man", "Braveheart"],
-  favFood: [
-    {
-      name: "Kimchi",
-      fatty: true
-    },
-    {
-      name: "Big Mac",
-      fatty: true
-    }
-  ]
-};
+function sayHello(param, num) {
+  console.log("Hello!", param, "you have", num);
+}
 
-console.log(studentInfo.favFood[0].fatty);
+sayHello("jun", 15);
+console.log("Hi");
