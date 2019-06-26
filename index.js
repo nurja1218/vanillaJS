@@ -1,6 +1,8 @@
-function sayHello(param, num) {
-  console.log("Hello!", param, "you have", num);
+const calculator = {
+  plus: function(a, b) {
+    return a + b;
+  }
 }
 
-sayHello("jun", 15);
-console.log("Hi");
+const plus = calculator.plus(5,5);
+console.log(plus)
